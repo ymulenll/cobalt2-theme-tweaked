@@ -2,8 +2,9 @@
   "name": "cobalt2-theme-tweaked",
   "displayName": "Cobalt2 Theme Tweaked",
   "description": "Cobalt2 Theme, but with some tweaks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "yoelvismulen",
+  "icon": "images/logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/ymulenll/cobalt2-theme-tweaked"
