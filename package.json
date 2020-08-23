@@ -1,0 +1,22 @@
+{
+  "name": "cobalt2-theme-tweaked",
+  "displayName": "Cobalt2 Theme Tweaked",
+  "description": "Cobalt2 Theme, but with some tweaks",
+  "version": "0.0.1",
+  "publisher": "yoelvismulen",
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cobalt2 Theme Tweaked",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cobalt2 Theme Tweaked-color-theme.json"
+      }
+    ]
+  }
+}
