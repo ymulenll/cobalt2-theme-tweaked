@@ -4,9 +4,17 @@
   "description": "Cobalt2 Theme, but with some tweaks",
   "version": "0.0.1",
   "publisher": "yoelvismulen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ymulenll/cobalt2-theme-tweaked"
+  },
   "engines": {
     "vscode": "^1.48.0"
   },
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
   "categories": [
     "Themes"
   ],
