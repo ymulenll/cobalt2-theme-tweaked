@@ -6,9 +6,7 @@ name: Publish VS Code Extension
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   deploy:
