@@ -973,8 +973,9 @@
     {
       "scope": ["source.css entity", "source.stylus entity"],
       "settings": {
-        "foreground": "#3AD900"
-      }
+        "foreground": "#f0b22c",
+        "fontStyle": "italic"
+      },
     },
     {
       "scope": "entity.other.attribute-name.id.css",
@@ -991,7 +992,7 @@
     {
       "scope": ["source.css support", "source.stylus support"],
       "settings": {
-        "foreground": "#A5FF90"
+        "foreground": "#dfdbdb"
       }
     },
     {
