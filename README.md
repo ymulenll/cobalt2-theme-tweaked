@@ -1,6 +1,7 @@
 # Cobalt2 Theme Tweaked for VS Code by Yoelvis Mulen
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/yoelvismulen.cobalt2-theme-tweaked.svg)](https://marketplace.visualstudio.com/items?itemName=yoelvismulen.cobalt2-theme-tweaked)
+[![Version](https://img.shields.io/vscode-marketplace/v/yoelvismulen.cobalt2-theme-tweaked.svg)](https://marketplace.visualstudio.com/items?itemName=yoelvismulen.cobalt2-theme-tweaked)
+[![Downloads](https://img.shields.io/vscode-marketplace/d/yoelvismulen.cobalt2-theme-tweaked.svg)](https://marketplace.visualstudio.com/items?itemName=yoelvismulen.cobalt2-theme-tweaked)
 
 ![Preview](https://raw.githubusercontent.com/ymulenll/cobalt2-theme-tweaked/master/images/sample.png)
 
