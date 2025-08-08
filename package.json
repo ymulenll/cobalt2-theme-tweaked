@@ -1,38 +1,39 @@
 {
-  "name": "cobalt2-theme-tweaked",
-  "displayName": "Cobalt2 Theme Tweaked",
-  "description": "Cobalt2 Theme, but with some tweaks",
-  "version": "0.3.3",
-  "publisher": "yoelvismulen",
-  "icon": "images/logo.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ymulenll/cobalt2-theme-tweaked"
-  },
-  "engines": {
-    "vscode": "^1.48.0"
-  },
-  "keywords": [
-    "VSCode",
-    "Themes"
-  ],
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Cobalt2 Theme Tweaked",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Cobalt2 Theme Tweaked-color-theme.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4",
-    "vsce": "^1.80.0"
-  },
-  "scripts": {
-    "start": "nodemon --exec vsce package"
-  }
+	"name": "cobalt2-theme-tweaked",
+	"displayName": "Cobalt2 Theme Tweaked",
+	"description": "Cobalt2 Theme, but with some tweaks",
+	"version": "0.3.3",
+	"license": "MIT",
+	"publisher": "yoelvismulen",
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ymulenll/cobalt2-theme-tweaked"
+	},
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"keywords": [
+		"VSCode",
+		"Themes"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Cobalt2 Theme Tweaked",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Cobalt2 Theme Tweaked-color-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4",
+		"vsce": "^1.80.0"
+	},
+	"scripts": {
+		"start": "nodemon --exec vsce package"
+	}
 }
