@@ -1,9 +1,6 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Publish VS Code Extension
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+# Publish releases when changes reach master.
 on:
   push:
     branches: [master]
@@ -11,19 +8,20 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
       - name: Publish to Visual Studio Marketplace
-        uses: HaaLeo/publish-vscode-extension@v2
-        with:
-          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
-          registryUrl: https://marketplace.visualstudio.com
+        run: npx --yes @vscode/vsce@4.1.0 publish --oidc --no-dependencies --skip-duplicate
 
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v2
         with:
           pat: ${{ secrets.OPEN_VSX_TOKEN }}
+          skipDuplicate: true
 
